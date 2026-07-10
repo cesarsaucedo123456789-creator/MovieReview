@@ -1,0 +1,39 @@
+.button{
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    transition:var(--transition);
+
+    font-weight:600;
+
+    cursor:pointer;
+
+}
+
+.button--primary{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+.button--primary:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.button--secondary{
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    background:transparent;
+
+}

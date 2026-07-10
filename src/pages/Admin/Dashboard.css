@@ -1,0 +1,36 @@
+.dashboard {
+  width: 100%;
+}
+
+.dashboard__title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.dashboard__subtitle {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.dashboard__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.dashboard-card {
+  background: #111;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.dashboard-card h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.dashboard-card span {
+  font-size: 40px;
+  font-weight: bold;
+}

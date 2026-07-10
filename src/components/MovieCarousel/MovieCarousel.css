@@ -1,0 +1,27 @@
+.movie-carousel{
+
+    display:flex;
+
+    gap:25px;
+
+    overflow-x:auto;
+
+    padding-bottom:20px;
+
+    scroll-behavior:smooth;
+
+}
+
+.movie-carousel::-webkit-scrollbar{
+
+    height:8px;
+
+}
+
+.movie-carousel::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:50px;
+
+}

@@ -1,0 +1,91 @@
+.admin-login{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #05080d,
+
+        #101a2a
+
+    );
+
+}
+
+.admin-login__card{
+
+    width:430px;
+
+    background:var(--surface);
+
+    padding:45px;
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.admin-login__title{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+}
+
+.admin-login__subtitle{
+
+    text-align:center;
+
+    color:var(--gray);
+
+    margin-bottom:35px;
+
+}
+
+.admin-login__form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.admin-login__input{
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#222a35;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+.admin-login__input:focus{
+
+    outline:2px solid var(--primary);
+
+}
+
+.admin-login__button{
+
+    margin-top:10px;
+
+}

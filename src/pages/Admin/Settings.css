@@ -1,0 +1,27 @@
+.settings-admin {
+  width: 100%;
+}
+
+.settings-admin h1 {
+  margin-bottom: 30px;
+}
+
+.settings-card {
+  background: #111;
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.settings-card h2 {
+  margin-bottom: 15px;
+}
+
+.settings-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

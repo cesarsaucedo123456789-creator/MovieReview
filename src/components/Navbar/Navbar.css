@@ -1,0 +1,139 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10, 15, 25, 0.8);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  z-index: 9999;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar__logo-icon {
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.navbar__logo-text {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar__menu-link {
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: 0.3s;
+  position: relative;
+}
+
+.navbar__menu-link:hover {
+  color: white;
+}
+
+.navbar__menu-link::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: 0.3s;
+}
+
+.navbar__menu-link:hover::after {
+  width: 100%;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar__search {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar__search:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.navbar__login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, var(--primary), #006dff);
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar__login:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.navbar__user{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+
+}
+
+.navbar__username{
+
+  color:white;
+
+  font-weight:600;
+
+}
+
+.navbar__logout{
+
+  background:#e50914;
+
+  color:white;
+
+  border:none;
+
+  padding:8px 15px;
+
+  border-radius:6px;
+
+  cursor:pointer;
+
+}
+
+.navbar__logout:hover{
+
+  background:#f6121d;
+
+}

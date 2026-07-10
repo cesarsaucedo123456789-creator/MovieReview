@@ -1,0 +1,38 @@
+.users-admin {
+  width: 100%;
+}
+
+.users-admin__header {
+  margin-bottom: 30px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #333;
+  color: white;
+}
+
+.delete-btn {
+  background: #900;
+  color: white;
+}

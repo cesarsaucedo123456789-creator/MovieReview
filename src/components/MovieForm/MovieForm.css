@@ -1,0 +1,44 @@
+.movie-form {
+  background: #111;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.movie-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.movie-form input,
+.movie-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.movie-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.movie-form__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.movie-form button {
+  background: white;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.movie-form__cancel {
+  background: #900 !important;
+  color: white !important;
+}
