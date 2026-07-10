@@ -15,7 +15,7 @@ import Login from "../pages/public/Login";
 import Register from "../pages/public/Register";
 
 // Admin
-import Dashboard from "../pages/admin/Dashboard";
+import Dashboard from "../pages/Dashboard/Dashboard";
 import Movies from "../pages/admin/Movies/Movies";
 import Users from "../pages/admin/Users";
 import Reviews from "../pages/admin/Reviews";
